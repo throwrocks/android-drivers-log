@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Travel Log</string>
     <string name="action_settings">Settings</string>
+    <!-- Log Activity -->
+    <string name="label_new_entry">New Entry</string>
+    <string name="label_date">Date</string>
+    <string name="label_time">Time</string>
+    <string name="label_am">AM</string>
+    <string name="label_pm">PM</string>
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="label_purpose">Purpose</string>
+    <string name="label_odometer_start">Odometer Start</string>
+    <string name="label_odometer_end">Odometer End</string>
 </resources>

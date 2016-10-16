@@ -14,14 +14,15 @@ public class LogActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_dropdown_item_1line, COUNTRIES);
+                android.R.layout.simple_dropdown_item_1line, SITES);
         AutoCompleteTextView fromSite = (AutoCompleteTextView) findViewById(R.id.from_site);
         AutoCompleteTextView toSite = (AutoCompleteTextView) findViewById(R.id.to_site);
         fromSite.setAdapter(adapter);
         toSite.setAdapter(adapter);
     }
 
-    private static final String[] COUNTRIES = new String[] {
+    private static final String[] SITES = new String[] {
             "Belgium", "France", "Italy", "Germany", "Spain"
     };
+
 }
