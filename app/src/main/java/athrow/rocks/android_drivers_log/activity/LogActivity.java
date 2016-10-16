@@ -1,9 +1,11 @@
-package athrow.rocks.android_drivers_log;
+package athrow.rocks.android_drivers_log.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+
+import athrow.rocks.android_drivers_log.R;
 
 public class LogActivity extends AppCompatActivity {
 

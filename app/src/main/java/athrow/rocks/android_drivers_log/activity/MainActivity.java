@@ -1,4 +1,4 @@
-package athrow.rocks.android_drivers_log;
+package athrow.rocks.android_drivers_log.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import athrow.rocks.android_drivers_log.R;
 
 public class MainActivity extends AppCompatActivity {
 
