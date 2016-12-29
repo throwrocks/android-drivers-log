@@ -1,0 +1,1332 @@
+[
+ {
+   "FIELD1": "Museum name",
+   "FIELD2": "City",
+   "FIELD3": "County",
+   "FIELD4": "Type",
+   "FIELD5": "Summary/Refs"
+ },
+ {
+   "FIELD1": "African American Museum of Dallas",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Includes African American folk art, African masks, sculptures, gold weights, and textiles, art reflecting African American culture and history[1]"
+ },
+ {
+   "FIELD1": "Allen Heritage Center",
+   "FIELD2": "Allen",
+   "FIELD3": "Collin",
+   "FIELD4": "Local history",
+   "FIELD5": "Photos, clothing, located in a replica depot[2]"
+ },
+ {
+   "FIELD1": "American Airlines C.R. Smith Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Aviation",
+   "FIELD5": "History of American Airlines and the air transportation industry"
+ },
+ {
+   "FIELD1": "Amon Carter Museum of American Art",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Art",
+   "FIELD5": "American art, includes paintings, sculptures and photography[3]"
+ },
+ {
+   "FIELD1": "Archer County Historical Museum",
+   "FIELD2": "Archer City",
+   "FIELD3": "Archer",
+   "FIELD4": "Local history",
+   "FIELD5": "Located in the former county jail[4][5]"
+ },
+ {
+   "FIELD1": "Arlington Museum of Art",
+   "FIELD2": "Arlington",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Art",
+   "FIELD5": "Focus is contemporary Texas art exhibitions[6][7]"
+ },
+ {
+   "FIELD1": "ArtCentre of Plano",
+   "FIELD2": "Plano",
+   "FIELD3": "Collin",
+   "FIELD4": "Art",
+   "FIELD5": "[8]"
+ },
+ {
+   "FIELD1": "Audie Murphy American Cotton Museum",
+   "FIELD2": "Greenville",
+   "FIELD3": "Hunt",
+   "FIELD4": "Local history",
+   "FIELD5": "Historical information about the cotton industry, and Medal of Honor recipient Audie Murphy, Hunt County War Memorial on the grounds"
+ },
+ {
+   "FIELD1": "Bain-Honaker House",
+   "FIELD2": "Farmersville",
+   "FIELD3": "Collin",
+   "FIELD4": "Historic house",
+   "FIELD5": "Operated by the Farmersville Historical Society[9]"
+ },
+ {
+   "FIELD1": "Ball-Eddleman-McFarland House",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Historic house",
+   "FIELD5": "[10]"
+ },
+ {
+   "FIELD1": "Baylor County Museum",
+   "FIELD2": "Seymour",
+   "FIELD3": "Baylor",
+   "FIELD4": "Local history",
+   "FIELD5": "[11][12]"
+ },
+ {
+   "FIELD1": "Barnard's Mill Art Museum",
+   "FIELD2": "Glen Rose",
+   "FIELD3": "Somervell",
+   "FIELD4": "Art",
+   "FIELD5": "Historic mill and art museum, operated by the Somervell History Foundation[13][14]"
+ },
+ {
+   "FIELD1": "Bath House Cultural Center",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Multiple",
+   "FIELD5": "Includes a fine arts gallery and the White Rock Lake Museum with exhibits of natural history"
+ },
+ {
+   "FIELD1": "Bayless-Selby House Museum",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "Historic house",
+   "FIELD5": "Victorian period home[15]"
+ },
+ {
+   "FIELD1": "Ben Hogan Museum",
+   "FIELD2": "Dublin",
+   "FIELD3": "Erath",
+   "FIELD4": "Sports",
+   "FIELD5": "Life of golfer Ben Hogan[16]"
+ },
+ {
+   "FIELD1": "Big Bear Native American Museum",
+   "FIELD2": "Cleburne",
+   "FIELD3": "Johnson",
+   "FIELD4": "Native American",
+   "FIELD5": "[17]"
+ },
+ {
+   "FIELD1": "Bridgeport Heritage Museum",
+   "FIELD2": "Bridgeport",
+   "FIELD3": "Wise",
+   "FIELD4": "Local history",
+   "FIELD5": "Includes coal mining, railroads, natural gas, housed in the lower floor of the Bridgeport Visitors Center[18]"
+ },
+ {
+   "FIELD1": "Burleson Heritage Museum",
+   "FIELD2": "Burleson",
+   "FIELD3": "Johnson",
+   "FIELD4": "Local history",
+   "FIELD5": "The original 1912 Interurban electric trolley station (and drug store), with restored rail car 330 and parlor car 411 outside for touring, and items and information of local historical significance.[19][20]"
+ },
+ {
+   "FIELD1": "Capehart Communications Collection",
+   "FIELD2": "Corsicana",
+   "FIELD3": "Navarro",
+   "FIELD4": "Technology",
+   "FIELD5": "Open by appointment, private collection of communications equipment including telephones, magazines, posters, records, and related communications equipment[21]"
+ },
+ {
+   "FIELD1": "Cattle Raisers Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "History",
+   "FIELD5": "History of the cattle and ranching industry in Texas, located inside the Fort Worth Museum of Science and History[22]"
+ },
+ {
+   "FIELD1": "Cavanaugh Flight Museum",
+   "FIELD2": "Addison",
+   "FIELD3": "Dallas",
+   "FIELD4": "Aviation",
+   "FIELD5": "Vintage aircraft, aviation heritage"
+ },
+ {
+   "FIELD1": "Cedar Hill Museum of History",
+   "FIELD2": "Cedar Hill",
+   "FIELD3": "Dallas",
+   "FIELD4": "Local history",
+   "FIELD5": "[23]"
+ },
+ {
+   "FIELD1": "Chestnut Square Historic Village",
+   "FIELD2": "McKinney",
+   "FIELD3": "Collin",
+   "FIELD4": "Open air",
+   "FIELD5": "Includes six historic homes, a one-room school house, chapel and store, blacksmith shop, smoke house, and chapel[24]"
+ },
+ {
+   "FIELD1": "Chisholm Trail Museum",
+   "FIELD2": "Cleburne",
+   "FIELD3": "Johnson",
+   "FIELD4": "Local history",
+   "FIELD5": "Outdoor displays of tipis and life size cattle drive silhouettes, history of the Chisholm Trail in the area[17]"
+ },
+ {
+   "FIELD1": "Christian Arts Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Art",
+   "FIELD5": "Spiritually inspired (Christian only) works of art [25]"
+ },
+ {
+   "FIELD1": "City-County Heritage Museum",
+   "FIELD2": "Paducah",
+   "FIELD3": "Cottle",
+   "FIELD4": "Local history",
+   "FIELD5": "Exhibits include antiques, farming, ranching and retail businesses[26]"
+ },
+ {
+   "FIELD1": "Clara Foster Slough Museum",
+   "FIELD2": "Enloe",
+   "FIELD3": "Delta",
+   "FIELD4": "Local History",
+   "FIELD5": "Home to many Enloe, Delta County and Sulphur River artifacts, as well as a genealogy center and library; also known as the Enloe Museum[27]"
+ },
+ {
+   "FIELD1": "Clay County 1890 Jail Museum",
+   "FIELD2": "Henrietta",
+   "FIELD3": "Clay",
+   "FIELD4": "Prison",
+   "FIELD5": "Historic jail and keeper's residence, exhibits of local history[28]"
+ },
+ {
+   "FIELD1": "Collin County Historical Museum",
+   "FIELD2": "McKinney",
+   "FIELD3": "Collin",
+   "FIELD4": "Local history",
+   "FIELD5": "Includes Civil War, pioneer life and farming exhibits, operated by the Collin County Historical Society[29]"
+ },
+ {
+   "FIELD1": "Commemorative Air Force Wing",
+   "FIELD2": "Lancaster",
+   "FIELD3": "Dallas",
+   "FIELD4": "Aviation",
+   "FIELD5": "Located at Lancaster Airport[30][31][32]"
+ },
+ {
+   "FIELD1": "Courthouse-on-the-Square Museum",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "Local history",
+   "FIELD5": "History and culture of Denton County [15]"
+ },
+ {
+   "FIELD1": "Creative Arts Center",
+   "FIELD2": "Bonham",
+   "FIELD3": "Fannin",
+   "FIELD4": "Art",
+   "FIELD5": "Community arts center with exhibits[33]"
+ },
+ {
+   "FIELD1": "Creation Evidence Museum",
+   "FIELD2": "Glen Rose",
+   "FIELD3": "Somervell",
+   "FIELD4": "Creationist",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Crow Collection of Asian Art",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Arts and cultures of China, Japan, India and Southeast Asia"
+ },
+ {
+   "FIELD1": "Cumbie Aviation Museum",
+   "FIELD2": "Corsicana",
+   "FIELD3": "Navarro",
+   "FIELD4": "Aviation",
+   "FIELD5": "Officially the Glenn Cumbie Museum of Aviation and Military History, located at Corsicana Municipal Airport, military and aviation artifacts[34]"
+ },
+ {
+   "FIELD1": "Dallas Contemporary",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Contemporary art gallery exhibitions"
+ },
+ {
+   "FIELD1": "Dallas Firefighters Museum",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Firefighting",
+   "FIELD5": "Located in the former fire station opposite Fair Park[35]"
+ },
+ {
+   "FIELD1": "Dallas Heritage Village",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Living",
+   "FIELD5": "Portrays life in North Texas from 1840–1910, located in the Cedars district[36]"
+ },
+ {
+   "FIELD1": "Dallas Holocaust Museum/Center for Education & Tolerance",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "History",
+   "FIELD5": "History of the Holocaust and the moral and ethical response to prejudice, hatred and indifference for the benefit of all humanity"
+ },
+ {
+   "FIELD1": "Dallas Museum of Art",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Denton County African American Museum",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "African American",
+   "FIELD5": "African American history in Denton County, features early 20th century medical office collection[15]"
+ },
+ {
+   "FIELD1": "Denton Firefighters' Museum",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "Firefighting",
+   "FIELD5": "[37]"
+ },
+ {
+   "FIELD1": "Dinosaur Valley State Park",
+   "FIELD2": "Glen Rose",
+   "FIELD3": "Somervell",
+   "FIELD4": "Natural history",
+   "FIELD5": "Visitor center with dinosaur exhibits, park features dinosaur tracks"
+ },
+ {
+   "FIELD1": "Doss Heritage and Culture Center",
+   "FIELD2": "Weatherford",
+   "FIELD3": "Parker",
+   "FIELD4": "Local history",
+   "FIELD5": "Exhibits include Mary Martin, Larry Hagman, Native Americans, early settlement, cattle drivers[38]"
+ },
+ {
+   "FIELD1": "Dublin Bottling Works",
+   "FIELD2": "Dublin",
+   "FIELD3": "Erath",
+   "FIELD4": "Industry",
+   "FIELD5": "Historic working bottling works with W.P. Kloster Museum of Dr. Pepper memorabilia[39][40]"
+ },
+ {
+   "FIELD1": "Dublin Historical Museum",
+   "FIELD2": "Dublin",
+   "FIELD3": "Erath",
+   "FIELD4": "Local history",
+   "FIELD5": "Operated by the Dublin Historical Society, exhibits include Ben Hogan, collection Big Little Books, military artifacts[41]"
+ },
+ {
+   "FIELD1": "Dublin Rodeo Heritage Museum",
+   "FIELD2": "Dublin",
+   "FIELD3": "Erath",
+   "FIELD4": "American West",
+   "FIELD5": "Rodeo photos, saddles, media related to when Dublin, Texas hosted one of the biggest rodeo companies in world during the late 30's, 40's and 50's[42]"
+ },
+ {
+   "FIELD1": "Eastland County Law Enforcement Museum",
+   "FIELD2": "Eastland",
+   "FIELD3": "Eastland",
+   "FIELD4": "Law enforcement",
+   "FIELD5": "located in the 1897 Eastland County Jail, once housing a Santa Claus Bank Robbery suspect.[43]"
+ },
+ {
+   "FIELD1": "Eastland County Museum",
+   "FIELD2": "Eastland",
+   "FIELD3": "Eastland",
+   "FIELD4": "Local history",
+   "FIELD5": "located in the old Eastland National Bank Building.[43]"
+ },
+ {
+   "FIELD1": "Eastland Outdoor Art Museum",
+   "FIELD2": "Eastland",
+   "FIELD3": "Eastland",
+   "FIELD4": "Art",
+   "FIELD5": "includes over 40 copies of famous artworks placed around town[43]"
+ },
+ {
+   "FIELD1": "Eisenhower Birthplace State Historic Site",
+   "FIELD2": "Denison",
+   "FIELD3": "Grayson",
+   "FIELD4": "Historic house",
+   "FIELD5": "Restored 1890s birthplace of President Dwight Eisenhower[44]"
+ },
+ {
+   "FIELD1": "Ellis County Museum",
+   "FIELD2": "Waxahachie",
+   "FIELD3": "Ellis",
+   "FIELD4": "Local history",
+   "FIELD5": "[45]"
+ },
+ {
+   "FIELD1": "Elm Fork Nature Preserve",
+   "FIELD2": "Carrollton",
+   "FIELD3": "Collin, Dallas, Denton",
+   "FIELD4": "Nature Preserve Biodiversity",
+   "FIELD5": "[46]"
+ },
+ {
+   "FIELD1": "Emory Heritage Park",
+   "FIELD2": "Emory",
+   "FIELD3": "Rains",
+   "FIELD4": "Open air",
+   "FIELD5": "Early 20th-century buildings open by appointment, operated by the Rains County Historical Society, includes a 1920s period house, church, service station, cotton gin scales building and jail[47]"
+ },
+ {
+   "FIELD1": "Ennis Railroad and Cultural Heritage Museum",
+   "FIELD2": "Ennis",
+   "FIELD3": "Ellis",
+   "FIELD4": "Multiple",
+   "FIELD5": "Local history, railroad memorabilia, dioramas, depot replicas, Czech dolls from the old country[48]"
+ },
+ {
+   "FIELD1": "Fannin County Museum of History",
+   "FIELD2": "Bonham",
+   "FIELD3": "Fannin",
+   "FIELD4": "Local history",
+   "FIELD5": "[49]"
+ },
+ {
+   "FIELD1": "Farmers Branch Historical Park",
+   "FIELD2": "Farmers Branch",
+   "FIELD3": "Dallas",
+   "FIELD4": "Open air",
+   "FIELD5": "27 acres, includes 1856 Gilbert House, a train depot, school, 1930s Dodson House, 1885 Victorian cottage, 1890s church[50]"
+ },
+ {
+   "FIELD1": "Fielder House",
+   "FIELD2": "Arlington",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Local history",
+   "FIELD5": "Operated by the Arlington Historical Society[51]"
+ },
+ {
+   "FIELD1": "Fire Station No.1",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Local history",
+   "FIELD5": "Satellite museum of the Fort Worth Museum of Science and History[52] Closed on February 19, 2016."
+ },
+ {
+   "FIELD1": "Fire Hall Museum",
+   "FIELD2": "Crowell",
+   "FIELD3": "Foard",
+   "FIELD4": "Local history",
+   "FIELD5": "[53]"
+ },
+ {
+   "FIELD1": "Florence Ranch Homestead",
+   "FIELD2": "Mesquite",
+   "FIELD3": "Dallas",
+   "FIELD4": "Historic house",
+   "FIELD5": "Late 19th-century settler's homestead[54]"
+ },
+ {
+   "FIELD1": "Fort Inglish",
+   "FIELD2": "Bonham",
+   "FIELD3": "Fannin",
+   "FIELD4": "History",
+   "FIELD5": "Replica mid 19th-century fort, includes a frontier cabin, a trading post, and blacksmith shop, open seasonally[55]"
+ },
+ {
+   "FIELD1": "Fort Richardson State Park",
+   "FIELD2": "Jacksboro",
+   "FIELD3": "Jack",
+   "FIELD4": "Military",
+   "FIELD5": "Restored post-Civil War fort buildings[56]"
+ },
+ {
+   "FIELD1": "Fort Worth Aviation Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Aviation",
+   "FIELD5": "History of North Texas aviation from the first flight to modern stealth aircraft. 25 aircraft and special exhibits on forward air control, World War One, military aviation, barnstormers, airlines, airports, World War Two, Consolidated B-36 and other locally made aircraft."
+ },
+ {
+   "FIELD1": "Fort Worth Museum of Science and History",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Multiple",
+   "FIELD5": "Science, local history"
+ },
+ {
+   "FIELD1": "Frisco Heritage Museum",
+   "FIELD2": "Frisco",
+   "FIELD3": "Collin",
+   "FIELD4": "Local history",
+   "FIELD5": "Local history exhibits, period room and industry displays, Heritage Center village of historic homes, a log cabin, one room school house and church[57][58]"
+ },
+ {
+   "FIELD1": "Frontiers of Flight Museum",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Aviation",
+   "FIELD5": "History behind the earliest aviators to modern astronauts, balloons and Zeppelins, the Wright brothers, World War I & II commercial and general flight and the ongoing space program"
+ },
+ {
+   "FIELD1": "Fuller House",
+   "FIELD2": "Euless",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Historic house",
+   "FIELD5": "Restored Depression era house[59]"
+ },
+ {
+   "FIELD1": "Gallery at UTA",
+   "FIELD2": "Arlington",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Art",
+   "FIELD5": "Part of the Fine Arts building of the University of Texas at Arlington[60]"
+ },
+ {
+   "FIELD1": "W. K. Gordon Center for Industrial History of Texas",
+   "FIELD2": "Thurber",
+   "FIELD3": "Erath",
+   "FIELD4": "Industry",
+   "FIELD5": "Operated by Tarleton State University, development of the coal, brick, and petroleum industries in the Thurber area[61]"
+ },
+ {
+   "FIELD1": "Gordon Community Library & Museum",
+   "FIELD2": "Gordon",
+   "FIELD3": "Palo Pinto",
+   "FIELD4": "Local history",
+   "FIELD5": "[62]"
+ },
+ {
+   "FIELD1": "Grapevine Historical Museum",
+   "FIELD2": "Grapevine",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Local history",
+   "FIELD5": "Operated by the Grapevine Historical Society in a former ice house[63]"
+ },
+ {
+   "FIELD1": "Grapevine Museum Galleries",
+   "FIELD2": "Grapevine",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Art",
+   "FIELD5": "Art galleries, located in the visitor's information center depot that also includes the Grapevine Vintage Railroad operations, a blacksmith shop, the station house[64]"
+ },
+ {
+   "FIELD1": "Grayson County Frontier Village",
+   "FIELD2": "Sherman",
+   "FIELD3": "Grayson",
+   "FIELD4": "Open air",
+   "FIELD5": "Recreated frontier village with many historic houses[65]"
+ },
+ {
+   "FIELD1": "Hall of State",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Local history",
+   "FIELD5": "Exhibits of city history and culture, operated by the Dallas Historical Society"
+ },
+ {
+   "FIELD1": "Hangar 10 Flying Museum",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "Aviation",
+   "FIELD5": "Restored historic aircraft, located at Denton Municipal Airport[66]"
+ },
+ {
+   "FIELD1": "Harber Wildlife Museum",
+   "FIELD2": "Sherman",
+   "FIELD3": "Grayson",
+   "FIELD4": "Natural history",
+   "FIELD5": "Collection of big game animals in dioramas and African artifacts[67]"
+ },
+ {
+   "FIELD1": "Hardeman County Historical Jail Museum",
+   "FIELD2": "Quanah",
+   "FIELD3": "Hardeman",
+   "FIELD4": "Prison",
+   "FIELD5": "Historic jail and keeper's residence[68]"
+ },
+ {
+   "FIELD1": "Heard-Craig Center for the Arts",
+   "FIELD2": "McKinney",
+   "FIELD3": "Collin",
+   "FIELD4": "Historic house",
+   "FIELD5": "1900 Heard-Craig House with family’s heirlooms, paintings, art objects, personal memorabilia and furniture[69]"
+ },
+ {
+   "FIELD1": "Heard Natural Science Museum and Wildlife Sanctuary",
+   "FIELD2": "McKinney",
+   "FIELD3": "Collin",
+   "FIELD4": "Natural history",
+   "FIELD5": "Includes Texas' venomous snakes, rocks, minerals and fossils, seashells and marine life, North Texas ecosystems, 289-acre wildlife sanctuary[70]"
+ },
+ {
+   "FIELD1": "Heritage Farmstead Museum",
+   "FIELD2": "Plano",
+   "FIELD3": "Collin",
+   "FIELD4": "Living",
+   "FIELD5": "Blackland Prairie farm culture and history from about 1890 to 1920"
+ },
+ {
+   "FIELD1": "Heritage House (Irving, Texas)",
+   "FIELD2": "Irving",
+   "FIELD3": "Dallas",
+   "FIELD4": "Historic house",
+   "FIELD5": "Early 20th-century period house, operated by the Irving Heritage Society[71][72]"
+ },
+ {
+   "FIELD1": "Hill County Cell Block Museum",
+   "FIELD2": "Hillsboro",
+   "FIELD3": "Hill",
+   "FIELD4": "Local history",
+   "FIELD5": "exhibits include Hill County native Willie Nelson, Native American artifacts, vintage clothing, and an actual cell block that was used until the 80s[73]"
+ },
+ {
+   "FIELD1": "Conrad Hilton Museum",
+   "FIELD2": "Cisco",
+   "FIELD3": "Eastland",
+   "FIELD4": "Local history",
+   "FIELD5": "Building that housed the first Hilton Hotel, the Mobley Hotel; part of the building houses the Mobley Museum about Conrad Hilton and the Mobley Hotel[74][75]"
+ },
+ {
+   "FIELD1": "Himes Log Cabin",
+   "FIELD2": "Euless",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Historic house",
+   "FIELD5": "restored 1850s log cabin[59]"
+ },
+ {
+   "FIELD1": "Hood County Jail and Museum",
+   "FIELD2": "Granbury",
+   "FIELD3": "Hood",
+   "FIELD4": "Prison",
+   "FIELD5": "Old Western jail with local history exhibits[76]"
+ },
+ {
+   "FIELD1": "Horton Classic Car Museum",
+   "FIELD2": "Nocona",
+   "FIELD3": "Montague",
+   "FIELD4": "Automotive",
+   "FIELD5": "Focus on American vintage, classic and muscle cars[77]"
+ },
+ {
+   "FIELD1": "Interurban Railway Museum",
+   "FIELD2": "Plano",
+   "FIELD3": "Collin",
+   "FIELD4": "Transportation",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "International Bowling Museum",
+   "FIELD2": "Arlington",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Sports",
+   "FIELD5": "Bowling history"
+ },
+ {
+   "FIELD1": "International Museum of Cultures",
+   "FIELD2": "Duncanville",
+   "FIELD3": "Dallas",
+   "FIELD4": "Anthropology",
+   "FIELD5": "Contemporary indigenous world cultures[78][79]"
+ },
+ {
+   "FIELD1": "Irving Arts Center",
+   "FIELD2": "Irving",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Includes four galleries and a sculpture garden"
+ },
+ {
+   "FIELD1": "Jack County Museum",
+   "FIELD2": "Jacksboro",
+   "FIELD3": "Jack",
+   "FIELD4": "Local history",
+   "FIELD5": "[80]"
+ },
+ {
+   "FIELD1": "Jesuit Dallas Museum",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Part of the Jesuit College Preparatory School of Dallas, art from 5 continents and 25 countries, spanning 2000 years[81]"
+ },
+ {
+   "FIELD1": "Johnson County Museum",
+   "FIELD2": "Cleburne",
+   "FIELD3": "Johnson",
+   "FIELD4": "Local history",
+   "FIELD5": "Operated by the Johnson County Historic Commission, located on the north wing of the first floor in the restored Johnson County Court House[82]"
+ },
+ {
+   "FIELD1": "Juanita J. Craft Civil Rights House",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Biographical",
+   "FIELD5": "Home of Juanita Craft, area civil rights pioneer[83][84]"
+ },
+ {
+   "FIELD1": "Kell House Museum",
+   "FIELD2": "Wichita Falls",
+   "FIELD3": "Wichita",
+   "FIELD4": "Historic house",
+   "FIELD5": "Operated by the Wichita County Heritage Society, early 20th-century period house[85][86]"
+ },
+ {
+   "FIELD1": "Kemp Center for the Arts",
+   "FIELD2": "Wichita Falls",
+   "FIELD3": "Wichita",
+   "FIELD4": "Art",
+   "FIELD5": "Arts center with exhibit galleries, performing arts[87]"
+ },
+ {
+   "FIELD1": "Kimbell Art Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Art",
+   "FIELD5": "Collections include European, Asian and Pre-Columbian art[10]"
+ },
+ {
+   "FIELD1": "Knapp Heritage Park",
+   "FIELD2": "Arlington",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Open air",
+   "FIELD5": "Operated by the Arlington Historical Society, includes a one-room schoolhouse, two cabins, and a blacksmith barn[88]"
+ },
+ {
+   "FIELD1": "Latino Cultural Center",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Latino art and culture with an art gallery"
+ },
+ {
+   "FIELD1": "Layland Museum",
+   "FIELD2": "Cleburne",
+   "FIELD3": "Johnson",
+   "FIELD4": "Local history",
+   "FIELD5": "Exhibits include regional home and family life, Native Americans, clothing, art and craft, frontier and town life[89]"
+ },
+ {
+   "FIELD1": "Lefty Frizzell Museum",
+   "FIELD2": "Corsicana",
+   "FIELD3": "Navarro",
+   "FIELD4": "Music",
+   "FIELD5": "Exhibits of Texas country western stars, furniture and memorabilia of Lefty Frizzell, part of the Pioneer Village[90][91]"
+ },
+ {
+   "FIELD1": "Lela Llatch Lloyd Memorial Museum",
+   "FIELD2": "Cisco",
+   "FIELD3": "Eastland",
+   "FIELD4": "Local history",
+   "FIELD5": "[92]"
+ },
+ {
+   "FIELD1": "Lenora Rolla Heritage Center Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "African-American",
+   "FIELD5": "Open by appointment"
+ },
+ {
+   "FIELD1": "Leonard Historic Museum",
+   "FIELD2": "Leonard",
+   "FIELD3": "Fannin",
+   "FIELD4": "Local history",
+   "FIELD5": "Photos, antique Native American pottery[93]"
+ },
+ {
+   "FIELD1": "Log Cabin Village",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Living",
+   "FIELD5": "19th-century period pioneer village[94]"
+ },
+ {
+   "FIELD1": "Lone Star Hi-Railers Model Train Exhibit",
+   "FIELD2": "Grapevine",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Railroad",
+   "FIELD5": "Located in a restored depot, model train layout, #771 Baldwin Mikado 2-8-2 steam engine and baggage car outside[95]"
+ },
+ {
+   "FIELD1": "Mama Muriel’s Doll Museum",
+   "FIELD2": "Leonard",
+   "FIELD3": "Fannin",
+   "FIELD4": "Dolls",
+   "FIELD5": "Thousands of dolls dating back to the mid-1800s, includes Barbie dolls, antique German and French dolls, dolls from Madame Alexander, Effanbee and American Girl[96]"
+ },
+ {
+   "FIELD1": "Mansfield Historical Museum",
+   "FIELD2": "Mansfield",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Local history",
+   "FIELD5": "Operated by the Mansfield Historical Society[97][98]"
+ },
+ {
+   "FIELD1": "Mary Kay Museum",
+   "FIELD2": "Addison",
+   "FIELD3": "Dallas",
+   "FIELD4": "Biographical",
+   "FIELD5": "Located at the headquarters of Mary Kay, history and accomplishments of Mary Kay Ash[99]"
+ },
+ {
+   "FIELD1": "McKinney Avenue Contemporary",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Also known as The MAC, contemporary art in all disciplines[100]"
+ },
+ {
+   "FIELD1": "Meadows Museum",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Features Spanish art, part of Southern Methodist University"
+ },
+ {
+   "FIELD1": "Medicine Mound Museum",
+   "FIELD2": "Medicine Mound",
+   "FIELD3": "Hardeman",
+   "FIELD4": "Local history",
+   "FIELD5": "Open Saturdays and by appointment[101][102]"
+ },
+ {
+   "FIELD1": "Mesquite Arts Center",
+   "FIELD2": "Mesquite",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Performing and cultural art center with gallery[103]"
+ },
+ {
+   "FIELD1": "Military Museum of Fort Worth",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Military",
+   "FIELD5": "Artifacts and history of veterans and combat units connected to Texas from the 20th century through today, including World War One, World War Two, Korea, Vietnam, and the Gulf Wars. Featured is a gallery of \"Hometown Heros\" that tells the story of notable Fort Worth natives including Amon G. Carter Jr., Clarence Brewster, Howard Scott and more.[10][104]"
+ },
+ {
+   "FIELD1": "Modern Art Museum of Fort Worth",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Modern art[10]",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Morton Museum",
+   "FIELD2": "Gainesville",
+   "FIELD3": "Cooke",
+   "FIELD4": "Local history",
+   "FIELD5": "History of Cooke County, operated by the Cooke County Heritage Society[105]"
+ },
+ {
+   "FIELD1": "Museum of Geometric and MADI Art",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Madí and geometric abstract art[106]"
+ },
+ {
+   "FIELD1": "Museum of North Texas History",
+   "FIELD2": "Wichita Falls",
+   "FIELD3": "Wichita",
+   "FIELD4": "Local history",
+   "FIELD5": "Includes Native American artifacts, cowboy hat collection, oil industry memorabilia, wedding gowns, ship models, period displays, model trains,[107] also operates the Call Aviation Field Memorial Exhibit at Wichita Falls Regional Airport,[108] history of Call Field in WWI, historic aircraft, Sheppard Air Force Base"
+ },
+ {
+   "FIELD1": "Museum of the American Railroad",
+   "FIELD2": "Frisco",
+   "FIELD3": "Collin",
+   "FIELD4": "Railroad",
+   "FIELD5": "Steam, diesel and passenger railroad equipment[57]"
+ },
+ {
+   "FIELD1": "Museum of the Americas (Texas)",
+   "FIELD2": "Weatherford",
+   "FIELD3": "Parker",
+   "FIELD4": "Anthropology",
+   "FIELD5": "Crafts, folk art, culture and artifacts including Mexico, Northwest Coast Indians, Plains Indians, Seminole Indians of Florida, Kuna Indians of Panama[109]"
+ },
+ {
+   "FIELD1": "Mustangs of Las Colinas",
+   "FIELD2": "Irving",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "One of the largest equestrian sculptures in the world, adjacent museum about the work's creation[110]"
+ },
+ {
+   "FIELD1": "Nash Farm",
+   "FIELD2": "Grapevine",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Farm",
+   "FIELD5": "Mid 19th-century working farm[111]"
+ },
+ {
+   "FIELD1": "Nasher Sculpture Center",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Modern and contemporary sculpture museum and garden"
+ },
+ {
+   "FIELD1": "National Cowgirl Museum and Hall of Fame",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "American West",
+   "FIELD5": "Famous cowgirls, memorabilia"
+ },
+ {
+   "FIELD1": "National Multicultural Western Heritage Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "American West",
+   "FIELD5": "Cowboy contributions of Hispanic Americans, Native Americans, European Americans, and African Americans"
+ },
+ {
+   "FIELD1": "National Scouting Museum",
+   "FIELD2": "Irving",
+   "FIELD3": "Dallas",
+   "FIELD4": "Scouting",
+   "FIELD5": "Official museum of the Boy Scouts of America"
+ },
+ {
+   "FIELD1": "National Vietnam War Museum",
+   "FIELD2": "Weatherford",
+   "FIELD3": "Parker",
+   "FIELD4": "Military",
+   "FIELD5": "Proposed museum, will include Vietnam era artifacts & exhibits[112]"
+ },
+ {
+   "FIELD1": "No. 1 British Flying Training School Museum",
+   "FIELD2": "Terrell",
+   "FIELD3": "Kaufman",
+   "FIELD4": "Military",
+   "FIELD5": "History of the WWII flight training schools for British pilots, includes log books, training materials, WW II memorabilia and uniforms[113]"
+ },
+ {
+   "FIELD1": "Northeast Texas Children’s Museum",
+   "FIELD2": "Commerce",
+   "FIELD3": "Hunt",
+   "FIELD4": "Children's",
+   "FIELD5": "Located in the Watson Center building of Texas A&M University–Commerce[114]"
+ },
+ {
+   "FIELD1": "Old Jail Museum",
+   "FIELD2": "Palo Pinto",
+   "FIELD3": "Palo Pinto",
+   "FIELD4": "Prison",
+   "FIELD5": "Operated by the Palo Pinto County Historical Commission, historic jail and keeper's residence, complex includes several log cabins and a carriage house[115]"
+ },
+ {
+   "FIELD1": "Old Post Office Museum & Art Center",
+   "FIELD2": "Graham",
+   "FIELD3": "Young",
+   "FIELD4": "Multiple",
+   "FIELD5": "Local history and art[116]"
+ },
+ {
+   "FIELD1": "Old Red Museum",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Local history",
+   "FIELD5": "County history and culture, located in the former Dallas County Courthouse"
+ },
+ {
+   "FIELD1": "Outlaw Trails Museum",
+   "FIELD2": "Sherman",
+   "FIELD3": "Grayson",
+   "FIELD4": "History",
+   "FIELD5": "Located in the Touch of Class Antique Mall, eclectic collection of antiques, collectibles and memorabilia; themes include local history, commercial, railroad, outlaw, political and Native American[117][118]"
+ },
+ {
+   "FIELD1": "Quanah Acme & Pacific Railroad Museum",
+   "FIELD2": "Quanah",
+   "FIELD3": "Hardeman",
+   "FIELD4": "Local history",
+   "FIELD5": "Located in a 1908 Spanish-style depot[68]"
+ },
+ {
+   "FIELD1": "Patterson-Appleton Center for Visual Arts",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "Art",
+   "FIELD5": "Operated by the Greater Denton Arts Council, includes the Meadows and Gough Galleries[119]"
+ },
+ {
+   "FIELD1": "The Pearce Collections at Navarro College",
+   "FIELD2": "Corsicana",
+   "FIELD3": "Navarro",
+   "FIELD4": "Multiple",
+   "FIELD5": "Contemporary American Western art and American Civil War collections"
+ },
+ {
+   "FIELD1": "Pelham Community History Museum",
+   "FIELD2": "Pelham",
+   "FIELD3": "Navarro",
+   "FIELD4": "African American",
+   "FIELD5": "African American community heritage[120]"
+ },
+ {
+   "FIELD1": "Penn Farm Agricultural History Center",
+   "FIELD2": "Cedar Hill",
+   "FIELD3": "Dallas",
+   "FIELD4": "Agriculture",
+   "FIELD5": "Located in Cedar Hill State Park, working farm with reconstructed and historic buildings from the mid-1800s through the mid-1900s"
+ },
+ {
+   "FIELD1": "Perot Museum of Nature and Science",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Multiple",
+   "FIELD5": "Natural history, science, children's exhibits; formerly Dallas Museum of Nature & science"
+ },
+ {
+   "FIELD1": "Perrin Air Force Base Historical Museum",
+   "FIELD2": "Denison",
+   "FIELD3": "Grayson",
+   "FIELD4": "Military",
+   "FIELD5": "History of the Perrin Air Force Base, located at North Texas Regional Airport[121]"
+ },
+ {
+   "FIELD1": "A.W. Perry Homestead Museum",
+   "FIELD2": "Carrollton",
+   "FIELD3": "Dallas",
+   "FIELD4": "Historic house",
+   "FIELD5": "Early 20th-century pioneer homestead[122]"
+ },
+ {
+   "FIELD1": "Pioneer Village",
+   "FIELD2": "Corsicana",
+   "FIELD3": "Navarro",
+   "FIELD4": "Open air",
+   "FIELD5": "Historic pioneer village with log houses, general store, trading post and other buildings, exhibits about Navarro County, includes the Lefty Frizzell Museum, Sam Roberts Museum, Peace Officers Museum, operated by the Navarro County Historical Society[123]"
+ },
+ {
+   "FIELD1": "Professional Wrestling Hall of Fame and Museum",
+   "FIELD2": "Wichita Falls",
+   "FIELD3": "Wichita",
+   "FIELD4": "Professional wrestling",
+   "FIELD5": "History of professional wrestling"
+ },
+ {
+   "FIELD1": "Red River Railroad Museum",
+   "FIELD2": "Denison",
+   "FIELD3": "Grayson",
+   "FIELD4": "Railroad",
+   "FIELD5": "Railroad artifacts, equipment, memorabilia, photos, caboose and railroad cars[124]"
+ },
+ {
+   "FIELD1": "Red River Valley Museum",
+   "FIELD2": "Vernon",
+   "FIELD3": "Wilbarger",
+   "FIELD4": "Local history",
+   "FIELD5": "Includes mounted wild game displays, ranching, pioneer and period business displays, Roy Orbison andJack Teagarden exhibits, sculptures of Electra Waggoner Biggs"
+ },
+ {
+   "FIELD1": "Sid Richardson Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Art",
+   "FIELD5": "Works of Frederic Remington and Charles Russell and other works about the American West [125]"
+ },
+ {
+   "FIELD1": "Ripley's Believe It or Not!",
+   "FIELD2": "Grand Prairie",
+   "FIELD3": "Dallas",
+   "FIELD4": "Amusement",
+   "FIELD5": "[126]"
+ },
+ {
+   "FIELD1": "Roanoke Visitor Center and Museum",
+   "FIELD2": "Roanoke",
+   "FIELD3": "Denton",
+   "FIELD4": "Local history",
+   "FIELD5": "Located in a former saloon[127]"
+ },
+ {
+   "FIELD1": "Robert E. Richeson Memorial Museum",
+   "FIELD2": "Graham",
+   "FIELD3": "Young",
+   "FIELD4": "Military",
+   "FIELD5": "World War II memorabilia including munitions, uniforms, items of everyday military life and model aircraft, open by appointment[128]"
+ },
+ {
+   "FIELD1": "Roaring Ranger Museum",
+   "FIELD2": "Ranger",
+   "FIELD3": "Eastland",
+   "FIELD4": "Local history",
+   "FIELD5": "History of the town after the oil boom[129]"
+ },
+ {
+   "FIELD1": "C.S. Roberts House Museum",
+   "FIELD2": "Sherman",
+   "FIELD3": "Grayson",
+   "FIELD4": "Historic house",
+   "FIELD5": "1896 Eastlake-Stick Style house, operated by the Sherman Preservation League[130]"
+ },
+ {
+   "FIELD1": "Ruth Paine House Museum",
+   "FIELD2": "Irving",
+   "FIELD3": "Dallas",
+   "FIELD4": "Historic house",
+   "FIELD5": "1963 period house where alleged JFK assassin Lee Harvey Oswald spent the night before the assassination[131]"
+ },
+ {
+   "FIELD1": "Sachse Historical Society Museum",
+   "FIELD2": "Sachse",
+   "FIELD3": "Dallas",
+   "FIELD4": "Local history",
+   "FIELD5": "[132]"
+ },
+ {
+   "FIELD1": "Sam Rayburn Museum",
+   "FIELD2": "Bonham",
+   "FIELD3": "Fannin",
+   "FIELD4": "Biographical",
+   "FIELD5": "Life of former Texas congressman and Speaker of the United States House of Representatives Sam Rayburn, operated by the Dolph Briscoe Center for American History"
+ },
+ {
+   "FIELD1": "Samuel T. Rayburn House",
+   "FIELD2": "Bonham",
+   "FIELD3": "Fannin",
+   "FIELD4": "Biographical",
+   "FIELD5": "20th century home of Sam Rayburn, NRHP listing in Fannin County"
+ },
+ {
+   "FIELD1": "Santa Fe Depot & Museum",
+   "FIELD2": "Gainesville",
+   "FIELD3": "Cooke",
+   "FIELD4": "Railroad",
+   "FIELD5": "Restored depot, exhibits include area railroads, Gainesville Community Circus, Coca Cola and Harvey House Restaurant[133][134]"
+ },
+ {
+   "FIELD1": "Settlement to City Museums",
+   "FIELD2": "Grapevine",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Local history",
+   "FIELD5": "Features three historic period buildings, the 1888 Keeling House Museum with local history displays, the 1910 Cotton Ginner's Museum about the area cotton industry, and the 1900 Donald Schoolhouse[135]"
+ },
+ {
+   "FIELD1": "Sherman Jazz Museum",
+   "FIELD2": "Sherman",
+   "FIELD3": "Grayson",
+   "FIELD4": "Music",
+   "FIELD5": "Collection of jazz LPs, videos, music playback machines, and jazz memorabilia[136]"
+ },
+ {
+   "FIELD1": "Sherman Museum",
+   "FIELD2": "Sherman",
+   "FIELD3": "Grayson",
+   "FIELD4": "Local history",
+   "FIELD5": "Exhibits include area fossils and sharks, period rooms, general store, courthouses of Grayson County[137]"
+ },
+ {
+   "FIELD1": "Sixth Floor Museum at Dealey Plaza",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "History",
+   "FIELD5": "Life, times, death and legacy of U.S. President John F. Kennedy"
+ },
+ {
+   "FIELD1": "Somervell County Historical Museum",
+   "FIELD2": "Glen Rose",
+   "FIELD3": "Somervell",
+   "FIELD4": "Local history",
+   "FIELD5": "[138]"
+ },
+ {
+   "FIELD1": "Spellman Museum of Forney History",
+   "FIELD2": "Forney",
+   "FIELD3": "Kaufman",
+   "FIELD4": "Local history",
+   "FIELD5": "Operated by the Forney Historic Preservation League, exhibits include Native Americans, wildlife, early settlers, transportation, agriculture, Forney schools[139][140]"
+ },
+ {
+   "FIELD1": "Stephenville Historical House Museum",
+   "FIELD2": "Stephenville",
+   "FIELD3": "Erath",
+   "FIELD4": "Open air",
+   "FIELD5": "Features twelve 19th-century buildings furnished with period furniture and artifacts, including log cabins, a ranch house, a rock cottage, a two-story Victorian house, a chapel, and a school house[141]"
+ },
+ {
+   "FIELD1": "Stockyards Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Industry",
+   "FIELD5": "History of the Fort Worth Stockyards Company and the meatpacking industry [142]"
+ },
+ {
+   "FIELD1": "Stonewall Saloon Museum",
+   "FIELD2": "St. Jo",
+   "FIELD3": "Montague",
+   "FIELD4": "History",
+   "FIELD5": "Restored late 19th-century saloon[143]"
+ },
+ {
+   "FIELD1": "Tales 'N' Trails Museum",
+   "FIELD2": "Nocona",
+   "FIELD3": "Montague",
+   "FIELD4": "Local history",
+   "FIELD5": "Features Native American artifacts and European trade goods, Western heritage artifacts, agriculture displays, leather goods, oil and gas industry displays[144]"
+ },
+ {
+   "FIELD1": "Tandy Leather Museum & Gallery",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Art",
+   "FIELD5": "The Tandy Leather Museum & Gallery is a free museum in Fort Worth, TX featuring an extensive collection of historical and modern leather art[145]"
+ },
+ {
+   "FIELD1": "Terrell Heritage Society Museum",
+   "FIELD2": "Terrell",
+   "FIELD3": "Kaufman",
+   "FIELD4": "Local history",
+   "FIELD5": "Located in a former Carnegie library[146]"
+ },
+ {
+   "FIELD1": "Texas Civil War Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Civil War",
+   "FIELD5": "Artifacts from Texas in the American Civil War, domestic objects, historic flags, personal items, and postwar Victorian clothing[147]"
+ },
+ {
+   "FIELD1": "Texas Cowboy Hall of Fame",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "American West",
+   "FIELD5": "[10]"
+ },
+ {
+   "FIELD1": "Texas Heritage Museum",
+   "FIELD2": "Hillsboro",
+   "FIELD3": "Hill",
+   "FIELD4": "Military",
+   "FIELD5": "Part of Hill College, history of Texas and Texans in wartime[148]"
+ },
+ {
+   "FIELD1": "Texas Musicians Museum",
+   "FIELD2": "Irving",
+   "FIELD3": "Dallas",
+   "FIELD4": "Music",
+   "FIELD5": "Includes exhibits of Texas musicians and Texas music memorabilia [149]"
+ },
+ {
+   "FIELD1": "Texas Women's Hall of Fame",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "Women's history",
+   "FIELD5": "Located on the Denton campus of Texas Women's University"
+ },
+ {
+   "FIELD1": "Texas Women's University Art Galleries",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "Art",
+   "FIELD5": "East and West Galleries in the Fine Arts Building[150]"
+ },
+ {
+   "FIELD1": "UNT ArtSpace Dallas",
+   "FIELD2": "Dallas",
+   "FIELD3": "Dallas",
+   "FIELD4": "Art",
+   "FIELD5": "Part of the University of North Texas College of Visual Arts and Design, includes the Texas Fashion Collection, located in the University Center Building[151]"
+ },
+ {
+   "FIELD1": "UNT Galleries",
+   "FIELD2": "Denton",
+   "FIELD3": "Denton",
+   "FIELD4": "Art",
+   "FIELD5": "Part of the University of North Texas College of Visual Arts and Design, includes the University of North Texas Art Gallery, Cora Stafford Gallery, Lightwell Gallery and North Gallery[151]"
+ },
+ {
+   "FIELD1": "U.S. Veterans Museum of Granbury Texas",
+   "FIELD2": "Granbury",
+   "FIELD3": "Hood",
+   "FIELD4": "Military",
+   "FIELD5": "[152]"
+ },
+ {
+   "FIELD1": "Van Alstyne Historical Museum",
+   "FIELD2": "Van Alstyne",
+   "FIELD3": "Grayson",
+   "FIELD4": "Local history",
+   "FIELD5": "Operated by the Van Alstyne Historical Society[153]"
+ },
+ {
+   "FIELD1": "Vintage Flying Museum",
+   "FIELD2": "Fort Worth",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Aviation",
+   "FIELD5": "Restored historic aircraft[154]"
+ },
+ {
+   "FIELD1": "W.K. Gordon Center for Industrial History of Texas",
+   "FIELD2": "Mingus",
+   "FIELD3": "Palo Pinto",
+   "FIELD4": "Industry",
+   "FIELD5": "Facility of Tarleton State University, history of the former railroad town, area coal, brick and petroleum industries[155][156]"
+ },
+ {
+   "FIELD1": "White Settlement Historical Museum",
+   "FIELD2": "White Settlement",
+   "FIELD3": "Tarrant",
+   "FIELD4": "Local history",
+   "FIELD5": "[157]"
+ },
+ {
+   "FIELD1": "Whiteside Museum of Natural History",
+   "FIELD2": "Seymour",
+   "FIELD3": "Baylor",
+   "FIELD4": "Natural history",
+   "FIELD5": "Area Permian-era dinosaur fossils, live reptiles and amphibians[158]"
+ },
+ {
+   "FIELD1": "Whitewright Historical Museum",
+   "FIELD2": "Whitewright",
+   "FIELD3": "Fannin",
+   "FIELD4": "Local history",
+   "FIELD5": "Open by appointment[159]"
+ },
+ {
+   "FIELD1": "Wichita Falls Museum of Art",
+   "FIELD2": "Wichita Falls",
+   "FIELD3": "Wichita",
+   "FIELD4": "Art",
+   "FIELD5": "Part of Midwestern State University[160]"
+ },
+ {
+   "FIELD1": "Wichita Falls Fire & Police Museum",
+   "FIELD2": "Wichita Falls",
+   "FIELD3": "Wichita",
+   "FIELD4": "Railroad",
+   "FIELD5": "Historic fire engines, equipment and police cruisers, open the 1st Saturday of the month[161]"
+ },
+ {
+   "FIELD1": "Wichita Falls Railroad Museum",
+   "FIELD2": "Wichita Falls",
+   "FIELD3": "Wichita",
+   "FIELD4": "Railroad",
+   "FIELD5": "Includes 15 railroad rolling stock units, 8 motorcar units and railroad memorabilia"
+ },
+ {
+   "FIELD1": "Wise County Heritage Museum",
+   "FIELD2": "Decatur",
+   "FIELD3": "Wise",
+   "FIELD4": "Local history",
+   "FIELD5": "Operated by the Wise County Historical Society[162]"
+ },
+ {
+   "FIELD1": "Zaner Robison Historical Museum",
+   "FIELD2": "Royse City",
+   "FIELD3": "Rockwall",
+   "FIELD4": "Local history",
+   "FIELD5": "Life on the Blackland Prairie from early settlers through the boom years of the 1960s[163]"
+ }
+]

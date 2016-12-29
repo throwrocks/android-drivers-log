@@ -1,14 +1,24 @@
 package athrow.rocks.android_drivers_log.activity;
 
 import android.app.DatePickerDialog;
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.DatePicker;
 import android.widget.EditText;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Date;
 
 import athrow.rocks.android_drivers_log.R;
@@ -25,6 +35,7 @@ public class LogActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log);
+        String[] newSites = getSitesFromJSON();
         dateField = (EditText) findViewById(R.id.date);
         dateField.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,7 +45,7 @@ public class LogActivity extends AppCompatActivity {
             }
         });
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_dropdown_item_1line, SITES);
+                android.R.layout.simple_dropdown_item_1line, newSites);
         AutoCompleteTextView fromSite = (AutoCompleteTextView) findViewById(R.id.from_site);
         AutoCompleteTextView toSite = (AutoCompleteTextView) findViewById(R.id.to_site);
         fromSite.setAdapter(adapter);
@@ -42,13 +53,42 @@ public class LogActivity extends AppCompatActivity {
         showDatePicker("");
     }
 
-    private static final String[] SITES = new String[]{
-            "Belgium", "France", "Italy", "Germany", "Spain"
-    };
+    /**
+     * getSitesFromJSON
+     */
+    //TODO: Move to the MainActivity to load the Sites tables
+    //TODO: Swap the JSON file to an API call to the FileMaker Server
+    private String[] getSitesFromJSON() {
+        StringBuilder builder = new StringBuilder();
+        Resources res = getResources();
+        InputStream in = res.openRawResource(R.raw.museums);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+        String line;
+        try {
+            while ((line = reader.readLine()) != null) {
+                builder.append(line);
+            }
+        } catch (IOException e) {
+            Log.e("IOException", e.toString());
+            return null;
+        }
+        try {
+            JSONArray sitesArray = new JSONArray(builder.toString());
+            int sitesCount = sitesArray.length();
+            String[] sitesList = new String[sitesCount];
+            for (int i = 0; i < sitesArray.length(); i++) {
+                String siteName = new JSONObject(sitesArray.getString(i)).getString("FIELD1");
+                sitesList[i] = siteName;
+            }
+            return sitesList;
+        } catch (JSONException e) {
+            Log.e("JSONException", e.toString());
+            return null;
+        }
+    }
 
     /**
      * showDatePicker
-     *
      */
     private void showDatePicker(String selectedDate) {
         Bundle bundle = new Bundle();
