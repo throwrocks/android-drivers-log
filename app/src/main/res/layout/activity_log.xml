@@ -53,6 +53,7 @@
 
             </android.support.design.widget.TextInputLayout>
             <RadioGroup
+                android:id="@+id/time_of_day"
                 android:layout_weight=".5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content">

@@ -4,12 +4,17 @@ import android.app.DatePickerDialog;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.InputType;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -50,41 +55,59 @@ public class LogActivity extends AppCompatActivity {
         AutoCompleteTextView toSite = (AutoCompleteTextView) findViewById(R.id.to_site);
         fromSite.setAdapter(adapter);
         toSite.setAdapter(adapter);
+        fromSite.setInputType(InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
+        toSite.setInputType(InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
         showDatePicker("");
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_log_activity, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.save_log:
+                saveLog();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void saveLog(){
+        EditText entryDate = (EditText) findViewById(R.id.date);
+        EditText entryTime = (EditText) findViewById(R.id.time);
+        RadioGroup entryTimeOfDay = (RadioGroup) findViewById(R.id.time_of_day);
+        AutoCompleteTextView entryFromSite = (AutoCompleteTextView) findViewById(R.id.from_site);
+        AutoCompleteTextView entryToSite = (AutoCompleteTextView) findViewById(R.id.to_site);
+        EditText entryPurpose = (EditText) findViewById(R.id.reason);
+        EditText entryOdometerStart = (EditText) findViewById(R.id.odometer_start);
+        EditText entryOdometerEnd = (EditText) findViewById(R.id.odometer_end);
+        String date = entryDate.getText().toString();
+        String time = entryTime.getText().toString();
+        int selectedRadioButtonId = entryTimeOfDay.getCheckedRadioButtonId();
+        if ( selectedRadioButtonId > 0) {
+            RadioButton selectedRadioButton = (RadioButton) findViewById(selectedRadioButtonId);
+            String timeOfDay = selectedRadioButton.getText().toString();
+        }
+        String fromSite = entryFromSite.getText().toString();
+        String toSite = entryToSite.getText().toString();
+        String purpose = entryPurpose.getText().toString();
+        String odometerStart = entryOdometerStart.getText().toString();
+        String odometerEnd = entryOdometerEnd.getText().toString();
+
+    }
     /**
      * getSitesFromJSON
      */
     //TODO: Move to the MainActivity to load the Sites tables
     //TODO: Swap the JSON file to an API call to the FileMaker Server
     private String[] getSitesFromJSON() {
-        StringBuilder builder = new StringBuilder();
-        Resources res = getResources();
-        InputStream in = res.openRawResource(R.raw.museums);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-        String line;
-        try {
-            while ((line = reader.readLine()) != null) {
-                builder.append(line);
-            }
-        } catch (IOException e) {
-            Log.e("IOException", e.toString());
-            return null;
-        }
-        try {
-            JSONArray sitesArray = new JSONArray(builder.toString());
-            int sitesCount = sitesArray.length();
-            String[] sitesList = new String[sitesCount];
-            for (int i = 0; i < sitesArray.length(); i++) {
-                String siteName = new JSONObject(sitesArray.getString(i)).getString("FIELD1");
-                sitesList[i] = siteName;
-            }
-            return sitesList;
-        } catch (JSONException e) {
-            Log.e("JSONException", e.toString());
-            return null;
-        }
+       return null;
     }
 
     /**
