@@ -12,7 +12,9 @@ import io.realm.annotations.PrimaryKey;
 public class TravelLog extends RealmObject {
     @PrimaryKey
     String id;
-    Date date;
+    String date;
+    String time;
+    String time_of_day;
     int employee_id;
     String employee_name;
     int from_site_id;
@@ -32,12 +34,28 @@ public class TravelLog extends RealmObject {
         this.id = id;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public String getTime_of_day() {
+        return time_of_day;
+    }
+
+    public void setTime_of_day(String time_of_day) {
+        this.time_of_day = time_of_day;
     }
 
     public int getEmployee_id() {

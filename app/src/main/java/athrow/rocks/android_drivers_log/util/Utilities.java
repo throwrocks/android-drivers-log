@@ -15,7 +15,7 @@ import java.util.TimeZone;
 public class Utilities {
 
     private Utilities(){ throw new AssertionError("No Utilities instances for you!"); } // suppress constructor
-
+    private static final String FMDateFormat = "MM/dd/yyyy hh:mm:ss a";
     /**
      * getStringAsDate
      *

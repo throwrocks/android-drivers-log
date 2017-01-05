@@ -27,9 +27,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Date;
+import java.util.UUID;
 
 import athrow.rocks.android_drivers_log.R;
 import athrow.rocks.android_drivers_log.data.Sites;
+import athrow.rocks.android_drivers_log.data.TravelLog;
 import athrow.rocks.android_drivers_log.fragment.DatePickerFragment;
 import athrow.rocks.android_drivers_log.util.Utilities;
 import io.realm.Realm;
@@ -84,7 +86,11 @@ public class LogActivity extends AppCompatActivity {
         }
     }
 
-    private void saveLog(){
+    /**
+     * saveLog
+     * A method to save the log entries to the database
+     */
+    private void saveLog() {
         TextInputLayout dateInput = (TextInputLayout) findViewById(R.id.input_date);
         TextInputLayout timeInput = (TextInputLayout) findViewById(R.id.input_time);
         TextInputLayout fromSiteInput = (TextInputLayout) findViewById(R.id.input_from_site);
@@ -101,11 +107,12 @@ public class LogActivity extends AppCompatActivity {
         EditText entryPurpose = (EditText) findViewById(R.id.reason);
         EditText entryOdometerStart = (EditText) findViewById(R.id.odometer_start);
         EditText entryOdometerEnd = (EditText) findViewById(R.id.odometer_end);
+
         String date = entryDate.getText().toString();
         String time = entryTime.getText().toString();
         String timeOfDay = "";
         int selectedRadioButtonId = entryTimeOfDay.getCheckedRadioButtonId();
-        if ( selectedRadioButtonId > 0) {
+        if (selectedRadioButtonId > 0) {
             RadioButton selectedRadioButton = (RadioButton) findViewById(selectedRadioButtonId);
             timeOfDay = selectedRadioButton.getText().toString();
         }
@@ -115,34 +122,73 @@ public class LogActivity extends AppCompatActivity {
         String odometerStart = entryOdometerStart.getText().toString();
         String odometerEnd = entryOdometerEnd.getText().toString();
 
-        if ( date.isEmpty()){
+        if (date.isEmpty()) {
             dateInput.setError("Date is required.");
+            return;
         }
-        if ( time.isEmpty()){
+        if (time.isEmpty()) {
             timeInput.setError("Time is required.");
+            return;
         }
-        /*if ( timeOfDay.isEmpty()){
-            timeofDayInput.setError("The time of day is required.");
-        }*/
-        if ( fromSite.isEmpty()){
+        if (timeOfDay.isEmpty()) {
+            timeInput.setError("AM/PM is required.");
+            return;
+        }
+        if (fromSite.isEmpty()) {
             fromSiteInput.setError("Departure site is required.");
+            return;
         }
-        if ( toSite.isEmpty()){
+        if (toSite.isEmpty()) {
             toSiteInput.setError("Destination site is required.");
+            return;
         }
-        if ( purpose.isEmpty()){
+        if (purpose.isEmpty()) {
             reasonInput.setError("Purpose is required.");
+            return;
         }
-        if ( odometerStart.isEmpty()){
+        if (odometerStart.isEmpty()) {
             odometerStartInput.setError("Odometer start is required.");
+            return;
         }
-        if ( odometerEnd.isEmpty()){
+        if (odometerEnd.isEmpty()) {
             odometerEndInput.setError("Odometer end is required.");
+            return;
         }
 
+        int odometerStartInt = Integer.parseInt(odometerStart);
+        int odometerEndInt = Integer.parseInt(odometerEnd);
+        int miles = odometerEndInt - odometerStartInt;
+
+        if (miles == 0 || miles < 0) {
+            // TODO: Show toast with error
+            return;
+        }
+        String id = UUID.randomUUID().toString();
+        RealmConfiguration realmConfig = new RealmConfiguration.Builder(getApplicationContext()).build();
+        Realm.setDefaultConfiguration(realmConfig);
+        Realm realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+        TravelLog log = new TravelLog();
+        log.setId(id);
+        log.setDate(date);
+        log.setTime(time);
+        log.setTime_of_day(timeOfDay);
+        log.setReason(purpose);
+        log.setFrom_site_name(fromSite);
+        log.setTo_site_name(toSite);
+        log.setOdometer_start(odometerStartInt);
+        log.setOdometer_end(odometerEndInt);
+        log.setMiles(miles);
+        realm.copyToRealmOrUpdate(log);
+        realm.commitTransaction();
+        realm.close();
     }
+
     /**
-     * getSitesFromJSON
+     * loadSites
+     * A method to load all the sites from the database
+     * Used to set the value lists for the from/to site fields
+     * @return a String array with all the sites
      */
     private String[] loadSites() {
         RealmConfiguration realmConfig = new RealmConfiguration.Builder(getApplicationContext()).build();
@@ -152,7 +198,7 @@ public class LogActivity extends AppCompatActivity {
         RealmResults<Sites> sites = query.findAll();
         int sitesCount = sites.size();
         String[] sitesArray = new String[sitesCount];
-        for ( int i = 0; i < sitesCount; i++ ){
+        for (int i = 0; i < sitesCount; i++) {
             String siteName = sites.get(i).getName();
             sitesArray[i] = siteName;
         }
