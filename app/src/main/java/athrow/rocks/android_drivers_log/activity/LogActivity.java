@@ -2,6 +2,7 @@ package athrow.rocks.android_drivers_log.activity;
 
 import android.app.DatePickerDialog;
 import android.content.res.Resources;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
@@ -19,6 +20,7 @@ import android.widget.RadioGroup;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -67,7 +69,6 @@ public class LogActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_log_activity, menu);
         return true;
     }
@@ -84,6 +85,14 @@ public class LogActivity extends AppCompatActivity {
     }
 
     private void saveLog(){
+        TextInputLayout dateInput = (TextInputLayout) findViewById(R.id.input_date);
+        TextInputLayout timeInput = (TextInputLayout) findViewById(R.id.input_time);
+        TextInputLayout fromSiteInput = (TextInputLayout) findViewById(R.id.input_from_site);
+        TextInputLayout toSiteInput = (TextInputLayout) findViewById(R.id.input_to_site);
+        TextInputLayout reasonInput = (TextInputLayout) findViewById(R.id.input_reason);
+        TextInputLayout odometerStartInput = (TextInputLayout) findViewById(R.id.input_odometer_start);
+        TextInputLayout odometerEndInput = (TextInputLayout) findViewById(R.id.input_odometer_end);
+
         EditText entryDate = (EditText) findViewById(R.id.date);
         EditText entryTime = (EditText) findViewById(R.id.time);
         RadioGroup entryTimeOfDay = (RadioGroup) findViewById(R.id.time_of_day);
@@ -94,16 +103,42 @@ public class LogActivity extends AppCompatActivity {
         EditText entryOdometerEnd = (EditText) findViewById(R.id.odometer_end);
         String date = entryDate.getText().toString();
         String time = entryTime.getText().toString();
+        String timeOfDay = "";
         int selectedRadioButtonId = entryTimeOfDay.getCheckedRadioButtonId();
         if ( selectedRadioButtonId > 0) {
             RadioButton selectedRadioButton = (RadioButton) findViewById(selectedRadioButtonId);
-            String timeOfDay = selectedRadioButton.getText().toString();
+            timeOfDay = selectedRadioButton.getText().toString();
         }
         String fromSite = entryFromSite.getText().toString();
         String toSite = entryToSite.getText().toString();
         String purpose = entryPurpose.getText().toString();
         String odometerStart = entryOdometerStart.getText().toString();
         String odometerEnd = entryOdometerEnd.getText().toString();
+
+        if ( date.isEmpty()){
+            dateInput.setError("Date is required.");
+        }
+        if ( time.isEmpty()){
+            timeInput.setError("Time is required.");
+        }
+        /*if ( timeOfDay.isEmpty()){
+            timeofDayInput.setError("The time of day is required.");
+        }*/
+        if ( fromSite.isEmpty()){
+            fromSiteInput.setError("Departure site is required.");
+        }
+        if ( toSite.isEmpty()){
+            toSiteInput.setError("Destination site is required.");
+        }
+        if ( purpose.isEmpty()){
+            reasonInput.setError("Purpose is required.");
+        }
+        if ( odometerStart.isEmpty()){
+            odometerStartInput.setError("Odometer start is required.");
+        }
+        if ( odometerEnd.isEmpty()){
+            odometerEndInput.setError("Odometer end is required.");
+        }
 
     }
     /**

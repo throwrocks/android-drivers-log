@@ -25,6 +25,10 @@
         <service
             android:name=".service.UpdateDBService"
             android:exported="false" />
+
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
     </application>
 
 </manifest>
