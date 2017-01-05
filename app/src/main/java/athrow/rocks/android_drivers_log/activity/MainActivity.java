@@ -9,14 +9,17 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.facebook.stetho.Stetho;
+import com.uphyca.stetho_realm.RealmInspectorModulesProvider;
+
 import athrow.rocks.android_drivers_log.R;
 import athrow.rocks.android_drivers_log.data.APIResponse;
+import athrow.rocks.android_drivers_log.data.FetchSites;
 import athrow.rocks.android_drivers_log.interfaces.OnTaskComplete;
 import athrow.rocks.android_drivers_log.service.UpdateDBService;
 
@@ -25,7 +28,14 @@ public class MainActivity extends AppCompatActivity implements OnTaskComplete {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Stetho.initialize(
+                Stetho.newInitializerBuilder(this)
+                        .enableDumpapp(Stetho.defaultDumperPluginsProvider(this))
+                        .enableWebKitInspector(RealmInspectorModulesProvider.builder(this).build())
+                        .build());
         final OnTaskComplete onTaskCompleted = this;
+        FetchSites fetchSites = new FetchSites(this, onTaskCompleted);
+        fetchSites.execute();
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

@@ -27,8 +27,13 @@ import java.io.InputStreamReader;
 import java.util.Date;
 
 import athrow.rocks.android_drivers_log.R;
+import athrow.rocks.android_drivers_log.data.Sites;
 import athrow.rocks.android_drivers_log.fragment.DatePickerFragment;
 import athrow.rocks.android_drivers_log.util.Utilities;
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
+import io.realm.RealmQuery;
+import io.realm.RealmResults;
 
 public class LogActivity extends AppCompatActivity {
 
@@ -40,7 +45,7 @@ public class LogActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log);
-        String[] newSites = getSitesFromJSON();
+        String[] newSites = loadSites();
         dateField = (EditText) findViewById(R.id.date);
         dateField.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,10 +109,20 @@ public class LogActivity extends AppCompatActivity {
     /**
      * getSitesFromJSON
      */
-    //TODO: Move to the MainActivity to load the Sites tables
-    //TODO: Swap the JSON file to an API call to the FileMaker Server
-    private String[] getSitesFromJSON() {
-       return null;
+    private String[] loadSites() {
+        RealmConfiguration realmConfig = new RealmConfiguration.Builder(getApplicationContext()).build();
+        Realm.setDefaultConfiguration(realmConfig);
+        Realm realm = Realm.getDefaultInstance();
+        RealmQuery<Sites> query = realm.where(Sites.class);
+        RealmResults<Sites> sites = query.findAll();
+        int sitesCount = sites.size();
+        String[] sitesArray = new String[sitesCount];
+        for ( int i = 0; i < sitesCount; i++ ){
+            String siteName = sites.get(i).getName();
+            sitesArray[i] = siteName;
+        }
+        realm.close();
+        return sitesArray;
     }
 
     /**

@@ -19,8 +19,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:parentActivityName=".activity.MainActivity"
-            android:name=".activity.LogActivity"/>
+            android:name=".activity.LogActivity"
+            android:parentActivityName=".activity.MainActivity" />
+
+        <service
+            android:name=".service.UpdateDBService"
+            android:exported="false" />
     </application>
 
 </manifest>

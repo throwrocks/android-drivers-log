@@ -5,10 +5,6 @@ import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -18,10 +14,11 @@ import athrow.rocks.android_drivers_log.R;
 import athrow.rocks.android_drivers_log.interfaces.OnTaskComplete;
 
 /**
+ * FetchSites
  * Created by jose on 12/29/16.
  */
 
-public class FetchSites extends AsyncTask<String, Void, JSONArray> {
+public class FetchSites extends AsyncTask<String, Void, APIResponse> {
     private Context mContext;
     private OnTaskComplete mListener = null;
 
@@ -31,8 +28,9 @@ public class FetchSites extends AsyncTask<String, Void, JSONArray> {
     }
 
     @Override
-    protected JSONArray doInBackground(String... params) {
-        JSONArray sitesArray;
+    protected APIResponse doInBackground(String... params) {
+        APIResponse apiResponse = new APIResponse();
+        String results;
         StringBuilder builder = new StringBuilder();
         Resources res = mContext.getResources();
         InputStream in = res.openRawResource(R.raw.museums);
@@ -42,21 +40,21 @@ public class FetchSites extends AsyncTask<String, Void, JSONArray> {
             while ((line = reader.readLine()) != null) {
                 builder.append(line);
             }
+            results = builder.toString();
+            apiResponse.setResponseCode(200);
+            apiResponse.setResponseText(results);
         } catch (IOException e) {
+            apiResponse.setResponseCode(500);
+            apiResponse.setResponseText("Could not find any sites.");
             Log.e("IOException", e.toString());
-            return null;
+            e.printStackTrace();
         }
-        try {
-            sitesArray = new JSONArray(builder.toString());
-        } catch (JSONException e) {
-            Log.e("JSONException", e.toString());
-            return null;
-        }
-        return sitesArray;
+        return apiResponse;
     }
 
     @Override
-    protected void onPostExecute(JSONArray jsonArray) {
-        super.onPostExecute(jsonArray);
+    protected void onPostExecute(APIResponse apiResponse) {
+        super.onPostExecute(apiResponse);
+        mListener.OnTaskComplete(apiResponse);
     }
 }
