@@ -1,6 +1,7 @@
 package athrow.rocks.android_drivers_log.activity;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.res.Resources;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +17,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -125,34 +127,50 @@ public class LogActivity extends AppCompatActivity {
         if (date.isEmpty()) {
             dateInput.setError("Date is required.");
             return;
+        } else {
+            dateInput.setError("");
         }
         if (time.isEmpty()) {
             timeInput.setError("Time is required.");
             return;
+        } else {
+            timeInput.setError("");
         }
         if (timeOfDay.isEmpty()) {
             timeInput.setError("AM/PM is required.");
             return;
+        } else {
+            timeInput.setError("");
         }
         if (fromSite.isEmpty()) {
             fromSiteInput.setError("Departure site is required.");
             return;
+        } else {
+            fromSiteInput.setError("");
         }
         if (toSite.isEmpty()) {
             toSiteInput.setError("Destination site is required.");
             return;
+        } else {
+            toSiteInput.setError("");
         }
         if (purpose.isEmpty()) {
             reasonInput.setError("Purpose is required.");
             return;
+        } else {
+            reasonInput.setError("");
         }
         if (odometerStart.isEmpty()) {
             odometerStartInput.setError("Odometer start is required.");
             return;
+        } else {
+            odometerStartInput.setError("");
         }
         if (odometerEnd.isEmpty()) {
             odometerEndInput.setError("Odometer end is required.");
             return;
+        } else {
+            odometerEndInput.setError("");
         }
 
         int odometerStartInt = Integer.parseInt(odometerStart);
@@ -160,9 +178,14 @@ public class LogActivity extends AppCompatActivity {
         int miles = odometerEndInt - odometerStartInt;
 
         if (miles == 0 || miles < 0) {
-            // TODO: Show toast with error
+            Context context = getApplicationContext();
+            CharSequence text = "Total miles equal " + miles + ". Please correct the odometer.";
+            int duration = Toast.LENGTH_SHORT;
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
             return;
         }
+
         String id = UUID.randomUUID().toString();
         RealmConfiguration realmConfig = new RealmConfiguration.Builder(getApplicationContext()).build();
         Realm.setDefaultConfiguration(realmConfig);
@@ -182,12 +205,21 @@ public class LogActivity extends AppCompatActivity {
         realm.copyToRealmOrUpdate(log);
         realm.commitTransaction();
         realm.close();
+
+        Context context = getApplicationContext();
+        CharSequence text = "Record saved!";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+
+        finish();
     }
 
     /**
      * loadSites
      * A method to load all the sites from the database
      * Used to set the value lists for the from/to site fields
+     *
      * @return a String array with all the sites
      */
     private String[] loadSites() {

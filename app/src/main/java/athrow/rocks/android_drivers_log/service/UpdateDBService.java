@@ -3,6 +3,7 @@ package athrow.rocks.android_drivers_log.service;
 import android.app.IntentService;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -47,6 +48,7 @@ public class UpdateDBService extends IntentService {
                 realm.commitTransaction();
                 realm.close();
             }
+            LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent(UPDATE_SITES_DB_SERVICE_BROADCAST));
         } catch (JSONException e) {
             Log.e(SERVICE_NAME, e.toString());
             e.printStackTrace();
