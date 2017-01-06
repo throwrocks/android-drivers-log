@@ -14,5 +14,16 @@
     <string name="label_odometer_start">Odometer Start</string>
     <string name="label_odometer_end">Odometer End</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="error_date">Date is required.</string>
+    <string name="error_time">Time is required</string>
+    <string name="error_time_of_day">AM/PM is required</string>
+    <string name="error_from_site">Departure site is required.</string>
+    <string name="error_to_site">Destination site is required.</string>
+    <string name="error_purpose">Purpose is required.</string>
+    <string name="error_odometer_start">Odometer start is required.</string>
+    <string name="error_odometer_end">Odometer end is required.</string>
+    <string name="error_miles1">Total miles equal</string>
+    <string name="error_miles2">Please correct the odometer.</string>
+    <string name="record_saved">Record saved.</string>
 
 </resources>

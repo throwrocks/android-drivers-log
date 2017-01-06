@@ -2,6 +2,7 @@ package athrow.rocks.android_drivers_log.activity;
 
 import android.app.DatePickerDialog;
 import android.content.Context;
+import android.content.res.Resources;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -34,6 +35,8 @@ public class LogActivity extends AppCompatActivity {
 
     private final static String DATE_DISPLAY = "MM/dd/yy";
     private final static String FIELD_SELECTED_DATE = "selected_date";
+    private final static String EMPTY = "";
+    private final static String DATE_PICKER = "Date Picker";
     private EditText dateField;
 
     @Override
@@ -57,7 +60,7 @@ public class LogActivity extends AppCompatActivity {
         toSite.setAdapter(adapter);
         fromSite.setInputType(InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
         toSite.setInputType(InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
-        showDatePicker("");
+        showDatePicker(EMPTY);
     }
 
     @Override
@@ -101,7 +104,7 @@ public class LogActivity extends AppCompatActivity {
 
         String date = entryDate.getText().toString();
         String time = entryTime.getText().toString();
-        String timeOfDay = "";
+        String timeOfDay = EMPTY;
         int selectedRadioButtonId = entryTimeOfDay.getCheckedRadioButtonId();
         if (selectedRadioButtonId > 0) {
             RadioButton selectedRadioButton = (RadioButton) findViewById(selectedRadioButtonId);
@@ -113,53 +116,55 @@ public class LogActivity extends AppCompatActivity {
         String odometerStart = entryOdometerStart.getText().toString();
         String odometerEnd = entryOdometerEnd.getText().toString();
 
+        Resources res = getResources();
+        
         if (date.isEmpty()) {
-            dateInput.setError("Date is required.");
+            dateInput.setError(res.getString(R.string.error_date));
             return;
         } else {
-            dateInput.setError("");
+            dateInput.setError(EMPTY);
         }
         if (time.isEmpty()) {
-            timeInput.setError("Time is required.");
+            timeInput.setError(res.getString(R.string.error_time));
             return;
         } else {
-            timeInput.setError("");
+            timeInput.setError(EMPTY);
         }
         if (timeOfDay.isEmpty()) {
-            timeInput.setError("AM/PM is required.");
+            timeInput.setError(res.getString(R.string.error_time_of_day));
             return;
         } else {
-            timeInput.setError("");
+            timeInput.setError(EMPTY);
         }
         if (fromSite.isEmpty()) {
-            fromSiteInput.setError("Departure site is required.");
+            fromSiteInput.setError(res.getString(R.string.error_from_site));
             return;
         } else {
-            fromSiteInput.setError("");
+            fromSiteInput.setError(EMPTY);
         }
         if (toSite.isEmpty()) {
-            toSiteInput.setError("Destination site is required.");
+            toSiteInput.setError(res.getString(R.string.error_to_site));
             return;
         } else {
-            toSiteInput.setError("");
+            toSiteInput.setError(EMPTY);
         }
         if (purpose.isEmpty()) {
-            reasonInput.setError("Purpose is required.");
+            reasonInput.setError(res.getString(R.string.error_purpose));
             return;
         } else {
-            reasonInput.setError("");
+            reasonInput.setError(EMPTY);
         }
         if (odometerStart.isEmpty()) {
-            odometerStartInput.setError("Odometer start is required.");
+            odometerStartInput.setError(res.getString(R.string.error_odometer_start));
             return;
         } else {
-            odometerStartInput.setError("");
+            odometerStartInput.setError(EMPTY);
         }
         if (odometerEnd.isEmpty()) {
-            odometerEndInput.setError("Odometer end is required.");
+            odometerEndInput.setError(res.getString(R.string.error_odometer_end));
             return;
         } else {
-            odometerEndInput.setError("");
+            odometerEndInput.setError(EMPTY);
         }
 
         int odometerStartInt = Integer.parseInt(odometerStart);
@@ -168,7 +173,8 @@ public class LogActivity extends AppCompatActivity {
 
         if (miles == 0 || miles < 0) {
             Context context = getApplicationContext();
-            CharSequence text = "Total miles equal " + miles + ". Please correct the odometer.";
+            CharSequence text = res.getString(R.string.error_miles1) + " " +
+                    miles + ". " + res.getString(R.string.error_miles2);
             int duration = Toast.LENGTH_SHORT;
             Toast toast = Toast.makeText(context, text, duration);
             toast.show();
@@ -196,7 +202,7 @@ public class LogActivity extends AppCompatActivity {
         realm.close();
 
         Context context = getApplicationContext();
-        CharSequence text = "Record saved!";
+        CharSequence text = res.getString(R.string.record_saved);
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
@@ -236,7 +242,7 @@ public class LogActivity extends AppCompatActivity {
         DatePickerFragment datePickerFragment = new DatePickerFragment();
         datePickerFragment.setArguments(bundle);
         datePickerFragment.setCallBack(dateSet);
-        datePickerFragment.show(getFragmentManager(), "Date Picker");
+        datePickerFragment.show(getFragmentManager(), DATE_PICKER);
     }
 
     /**

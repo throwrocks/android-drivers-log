@@ -21,6 +21,10 @@
         <activity
             android:name=".activity.LogActivity"
             android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".activity.MainActivity" />
 
         <service
             android:name=".service.UpdateDBService"
