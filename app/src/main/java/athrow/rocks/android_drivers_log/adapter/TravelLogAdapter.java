@@ -19,10 +19,8 @@ import athrow.rocks.android_drivers_log.realmadapter.RealmRecyclerViewAdapter;
 
 public class TravelLogAdapter extends RealmRecyclerViewAdapter<TravelLog> {
 
-    private final Context mContext;
-
     public TravelLogAdapter(Context context) {
-        this.mContext = context;
+        Context mContext = context;
     }
 
     private class ViewHolder extends RecyclerView.ViewHolder {

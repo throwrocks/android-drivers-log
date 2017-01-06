@@ -2,12 +2,10 @@ package athrow.rocks.android_drivers_log.activity;
 
 import android.app.DatePickerDialog;
 import android.content.Context;
-import android.content.res.Resources;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,15 +17,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.w3c.dom.Text;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Date;
 import java.util.UUID;
 
@@ -45,7 +34,7 @@ public class LogActivity extends AppCompatActivity {
 
     private final static String DATE_DISPLAY = "MM/dd/yy";
     private final static String FIELD_SELECTED_DATE = "selected_date";
-    EditText dateField;
+    private EditText dateField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

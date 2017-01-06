@@ -10,9 +10,10 @@ import io.realm.annotations.PrimaryKey;
 
 public class Sites extends RealmObject {
     @PrimaryKey
+    private
     String id;
-    int org;
-    String name;
+    private int org;
+    private String name;
 
     public String getId() {
         return id;

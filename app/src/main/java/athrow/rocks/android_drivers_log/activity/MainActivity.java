@@ -22,7 +22,6 @@ import athrow.rocks.android_drivers_log.R;
 import athrow.rocks.android_drivers_log.adapter.TravelLogAdapter;
 import athrow.rocks.android_drivers_log.data.APIResponse;
 import athrow.rocks.android_drivers_log.data.FetchSites;
-import athrow.rocks.android_drivers_log.data.Sites;
 import athrow.rocks.android_drivers_log.data.TravelLog;
 import athrow.rocks.android_drivers_log.interfaces.OnTaskComplete;
 import athrow.rocks.android_drivers_log.realmadapter.RealmTravelLogAdapter;
@@ -33,8 +32,8 @@ import io.realm.RealmQuery;
 import io.realm.RealmResults;
 
 public class MainActivity extends AppCompatActivity implements OnTaskComplete {
-    TravelLogAdapter travelLogAdapter;
-    RealmResults<TravelLog> realmResults;
+    private TravelLogAdapter travelLogAdapter;
+    private RealmResults<TravelLog> realmResults;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -9,20 +9,21 @@ import io.realm.annotations.PrimaryKey;
  */
 public class TravelLog extends RealmObject {
     @PrimaryKey
+    private
     String id;
-    String date;
-    String time;
-    String time_of_day;
-    int employee_id;
-    String employee_name;
-    int from_site_id;
-    String from_site_name;
-    int to_site_id;
-    String to_site_name;
-    String reason;
-    int odometer_start;
-    int odometer_end;
-    int miles;
+    private String date;
+    private String time;
+    private String time_of_day;
+    private int employee_id;
+    private String employee_name;
+    private int from_site_id;
+    private String from_site_name;
+    private int to_site_id;
+    private String to_site_name;
+    private String reason;
+    private int odometer_start;
+    private int odometer_end;
+    private int miles;
 
     public String getId() {
         return id;
